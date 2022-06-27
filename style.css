@@ -1,0 +1,77 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+body {
+  margin-top: 30px;
+  background-color: var(--body-bg-color);
+}
+.foto1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: var(--purple) solid;
+  border-radius: 50%;
+  padding: 7px;
+}
+p {
+  margin-bottom: 33px;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--purple);
+  display: flex;
+  justify-content: center;
+}
+.content {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--purple);
+
+  box-sizing: border-box;
+  border: 2px solid #bb99dd;
+  border-radius: 4px;
+
+  margin-bottom: 16px;
+  width: 326px;
+  height: 49px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+.link4 {
+  margin-bottom: 0;
+}
+a:link {
+  color: var(--purple);
+}
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+a:visited {
+  color: #bb99dd;
+  text-decoration: none;
+}
+a:active {
+  color: pink;
+  text-decoration: none;
+}
+.ícone {
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+}
